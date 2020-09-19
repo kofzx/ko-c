@@ -1,0 +1,28 @@
+.fake-news-box {
+    position: fixed;
+    top: 115px;
+    left: 15px;
+    z-index: 10;
+    overflow: hidden;
+    user-select: none;
+}
+.fake-news-main {
+    @include flex-box;
+    height: 32px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 16px;
+    padding-right: 13px;
+}
+.fake-avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 8px;
+    background: lavenderblush;
+}
+.fake-message {
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 1;
+}

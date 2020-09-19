@@ -7,7 +7,7 @@ interface IFields {
 
 export interface ScrollTabProps {
     /** 标签列表，可自定义项目字段名，详见fields，默认传string[] */
-    list?: any[];
+    list: any[];
     /** 选中的标签索引 */
     activeIndex?: number;
     /** 自定义项目字段名，格式为: { name: 'cate' } */
