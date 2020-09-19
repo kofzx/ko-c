@@ -1,0 +1,24 @@
+html, body {
+    background: #F6F6F6;
+    font-family: PingFang SC, Microsof YaHei, sans-serif;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+h2 {
+    font-weight: 500;
+}
+input {
+    outline: 0;
+    border: 0;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+  

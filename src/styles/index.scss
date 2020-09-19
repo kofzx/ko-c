@@ -1,5 +1,8 @@
+// reset
+@import "./reset";
+
 // config
-@import "variables";
+@import "./variables";
 
 // mixin
 @import "./mixin";
@@ -9,3 +12,6 @@
 
 // loadMore
 @import "../components/LoadMore/style";
+
+// scrollTab
+@import "../components/ScrollTab/style";
