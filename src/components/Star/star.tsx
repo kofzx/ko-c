@@ -46,7 +46,13 @@ export const Star: FC<StarProps> = (props) => {
         starOff,
         onChange
     } = props
-    const classes = classNames('star-box', className)
+    const classes = classNames(
+        'star-box', 
+        className,
+        {
+            'star-box--readonly': readonly
+        } 
+    )
     const [ stars, setStars ] = useState<boolean[]>([])
     const [ innerValue, setInnerValue ] = useState(0)
 
@@ -84,11 +90,15 @@ export const Star: FC<StarProps> = (props) => {
                     return (
                         <img
                             key={`star-${index}`}
-                            className=""
+                            className={classNames(
+                                { 'star-on': star },
+                                { 'star-off': !star }
+                            )}
                             style={{
                                 width: `${size}px`,
                                 height: `${size}px`,
-                                marginRight: `${margin}px`
+                                marginRight: `${margin}px`,
+                                display: readonly ? !star ? 'none' : 'block' : 'block'
                             }}
                             src={star ? starOn : starOff}
                             alt=""

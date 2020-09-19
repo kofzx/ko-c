@@ -20,3 +20,9 @@ Gutter.args = {
     value: 4,
     margin: 10
 }
+
+export const Readonly = Template.bind({})
+Readonly.args = {
+    value: 4,
+    readonly: true
+}

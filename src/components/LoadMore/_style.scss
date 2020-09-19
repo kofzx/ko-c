@@ -1,0 +1,106 @@
+// loading
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.at-loading {
+  display: inline-block;
+  position: relative;
+  width: $at-loading-size;
+  height: $at-loading-size;
+
+  &__ring {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: $at-loading-size;
+    height: $at-loading-size;
+    margin: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $at-loading-color transparent transparent transparent;
+    border-radius: 50%;
+    animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+
+    &:nth-child(1) {
+      animation-delay: -0.45s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: -0.3s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: -0.15s;
+    }
+  }
+}
+
+// activity-indicator
+.at-activity-indicator {
+  display: flex;
+
+  line-height: $line-height-base;
+
+  /* elements */
+  &__body {
+    flex: 0 0 auto;
+
+    line-height: 0;
+  }
+
+  &__content {
+    flex: 0 0 auto;
+    align-self: center;
+
+    margin-left: $spacing-h-lg;
+    color: $at-activity-indicator-font-color;
+    font-size: $at-activity-indicator-font-size;
+  }
+
+  /* modifiers */
+  &--center {
+    @include absolute-center;
+  }
+}
+
+// loadMore
+.at-load-more {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: $at-load-more-height;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  &__cnt {
+    flex: 1;
+  }
+
+  &__text-box {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  &__tip {
+    text-align: center;
+    width: 100%;
+    color: $at-load-more-tips-color;
+    font-size: $at-load-more-tips-size;
+  }
+  &__line {
+    display: block;
+    width: 36px;
+    height: 1px;
+    background: #cccccc;
+  }
+}
