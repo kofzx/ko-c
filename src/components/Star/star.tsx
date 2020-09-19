@@ -59,7 +59,7 @@ export const Star: FC<StarProps> = (props) => {
     const updateStars = () => {
         let stars: boolean[] = Array.from({
             length: count
-        }, function (_, index) {
+        } as ArrayLike<any>, function (_, index) {
             return index < innerValue
         })
         
@@ -75,7 +75,7 @@ export const Star: FC<StarProps> = (props) => {
 
     useEffect(() => {
         if (innerValue !== value) {
-            setInnerValue(value)
+            typeof value === 'number' && (setInnerValue(value))
         }
     }, [value])
 
