@@ -1,0 +1,7 @@
+.star-box {
+    @include flex-box;
+    cursor: pointer;
+    &--readonly {
+        cursor: default;
+    }
+}

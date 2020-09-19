@@ -1,0 +1,12 @@
+@mixin flex-box($justify-content: flex-start, $align-items: center) {
+    display: flex;
+    flex-direction: row;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+@mixin flex-box-v($justify-content: flex-start, $align-items: center) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
