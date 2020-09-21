@@ -1,0 +1,14 @@
+.empty-box {
+    width: 100%;
+    @include flex-box-v;
+}
+.empty-box-image {
+    width: 155px;
+    height: 116px;
+    margin-bottom: 31px;
+}
+.empty-box-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #BFBFBF;
+}
