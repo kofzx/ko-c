@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4c3fb4ea.chunk.css",
+    "main.js": "./main.648ec95eb1d78789dbf8.bundle.js",
+    "main.css.map": "./static/css/main.4c3fb4ea.chunk.css.map",
+    "main.js.map": "./main.648ec95eb1d78789dbf8.bundle.js.map",
+    "runtime~main.js": "./runtime~main.648ec95eb1d78789dbf8.bundle.js",
+    "runtime~main.js.map": "./runtime~main.648ec95eb1d78789dbf8.bundle.js.map",
+    "vendors~main.js": "./vendors~main.648ec95eb1d78789dbf8.bundle.js",
+    "vendors~main.js.map": "./vendors~main.648ec95eb1d78789dbf8.bundle.js.map",
+    "iframe.html": "./iframe.html",
+    "precache-manifest.208da92fd0fe23c7b7ca72809db13a34.js": "./precache-manifest.208da92fd0fe23c7b7ca72809db13a34.js",
+    "service-worker.js": "./service-worker.js",
+    "static/media/add.svg": "./static/media/add.89c0536f.svg",
+    "static/media/like-on.png": "./static/media/like-on.3af8c45e.png",
+    "static/media/star-regular.svg": "./static/media/star-regular.7a89d92b.svg",
+    "static/media/star-solid.svg": "./static/media/star-solid.31120f5f.svg",
+    "vendors~main.648ec95eb1d78789dbf8.bundle.js.LICENSE.txt": "./vendors~main.648ec95eb1d78789dbf8.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.648ec95eb1d78789dbf8.bundle.js",
+    "vendors~main.648ec95eb1d78789dbf8.bundle.js",
+    "static/css/main.4c3fb4ea.chunk.css",
+    "main.648ec95eb1d78789dbf8.bundle.js"
+  ]
+}
