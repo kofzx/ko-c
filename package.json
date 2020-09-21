@@ -18,6 +18,7 @@
     "@types/react-transition-group": "^4.4.0",
     "antd-mobile": "^2.3.4",
     "classnames": "^2.2.6",
+    "express": "^4.17.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
