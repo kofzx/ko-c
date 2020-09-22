@@ -46,13 +46,6 @@ export const Star: FC<StarProps> = (props) => {
         starOff,
         onChange
     } = props
-    const classes = classNames(
-        'star-box', 
-        className,
-        {
-            'star-box--readonly': readonly
-        } 
-    )
     const [ stars, setStars ] = useState<boolean[]>([])
     const [ innerValue, setInnerValue ] = useState(0)
 
@@ -84,7 +77,7 @@ export const Star: FC<StarProps> = (props) => {
     }, [count, innerValue])
 
     return (
-        <div className={classes}>
+        <div className='star-box'>
             {
                 stars.map((star, index) => {
                     return (
