@@ -48,7 +48,7 @@ export const ScrollTab: FC<ScrollTabProps> = (props) => {
     return (
         <div className='scroll-tab'>
             {
-                Array.isArray(list) && list.map((item, index) => {
+                list.map((item, index) => {
                     return (
                         <div
                             key={`scroll-tab-${index}`}
