@@ -1,0 +1,17 @@
+.img-wrapper, 
+.img-item {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.img-wrapper {
+    position: relative;
+}
+.play-img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}

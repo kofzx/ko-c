@@ -90,7 +90,7 @@ const getRotation = (orientation = 1) => {
 }
 
 /**
- * 上传picker组件
+ * 上传picker组件，支持上传图片/视频
  * 
  * ###引用
  * 

@@ -1,0 +1,33 @@
+.preview-img-mask {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    z-index: 100;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 1);
+}
+.preview-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.preview-video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.preview-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
