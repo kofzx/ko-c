@@ -10,6 +10,12 @@
     justify-content: $justify-content;
     align-items: $align-items;
 }
+@mixin bg-image($bgColor: #ffffff, $bgPosition: center, $bgSize: 100%) {
+    background-repeat: no-repeat;
+    background-color: $bgColor;
+    background-position: $bgPosition;
+    background-size: $bgSize;
+}
 @mixin absolute-center($pos: absolute) {
     position: $pos;
     top: 50%;

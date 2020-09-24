@@ -1,0 +1,38 @@
+.bills-item {
+    @include flex-box;
+    padding-right: 15px;
+    margin-bottom: 19px;
+}
+.bills-item-img {
+    width: 96px;
+    height: 96px;
+    @include bg-image($bgColor: #FAFAFA, $bgSize: contain);
+    margin-right: 13px;
+}
+.bills-item-main {
+    flex: 1;
+    @include flex-box-v(flex-end, flex-start);
+    align-self: flex-end;
+    position: relative;
+    top: 4px;
+}
+.bills-item-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.bills-item-feature {
+    @include flex-box(space-between);
+    width: 100%;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+.bills-price {
+    font-size: $title-size;
+    color: $price-color;
+    font-weight: bold;
+}
+.bills-price-yuan {
+    font-size: 13px;
+}

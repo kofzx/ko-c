@@ -1,0 +1,26 @@
+.bills-item-count {
+    font-size: 13px;
+    color: #666666;
+}
+.abs-count {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate3d(0, -50%, 0);
+}
+.bills-item-describtion {
+    font-size: 14px;
+    color: #999999;
+}
+.bills-item-option-tag {
+    font-size: 11px;
+    color: #999999;
+    padding: 6px 10px;
+    background: #FAFAFA;
+    border-radius: 2px;
+}
+.two-line-bills-item {
+    .bills-item-main {
+        align-self: center;
+    }
+}
